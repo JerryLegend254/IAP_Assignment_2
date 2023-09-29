@@ -10,6 +10,7 @@ class layouts
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Jeremy Ltd</title>
             <script src="https://cdn.tailwindcss.com"></script>
         </head>
 
@@ -21,10 +22,12 @@ class layouts
     {
         ?>
             <nav class="flex bg-blue-500 text-blue-100 justify-between items-center p-4">
-                <p class="uppercase tracking-widest text-2xl font-bold text-blue-100">Jeremy</p>
+                <a href="index.php">
+                    <p class="uppercase tracking-widest text-2xl font-bold text-blue-100">Jeremy</p>
+                </a>
                 <ul class="flex justify-between space-x-6">
                     <li><a href="view_articles.php" class="font-semibold">View Articles</a></li>
-                    <li><a href="add_article.php" class="font-semibold">Add Articles</a></li>
+                    <li><a href="index.php" class="font-semibold">Add Articles</a></li>
                 </ul>
             </nav>
         <?php
